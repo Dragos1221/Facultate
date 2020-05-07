@@ -1,0 +1,14 @@
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\bin\Debug\Labccv2.exe.config
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\bin\Debug\Labccv2.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\bin\Debug\Labccv2.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\bin\Debug\System.Data.SQLite.dll
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\bin\Debug\System.Data.SQLite.xml
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\obj\Debug\Labccv2.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\obj\Debug\Labccv2.Properties.Resources.resources
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\obj\Debug\Labccv2.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\obj\Debug\Labccv2.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\obj\Debug\Labccv2.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\obj\Debug\Labccv2.Form1.resources
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\obj\Debug\Labccv2.Form2.resources
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\bin\Debug\log4net.dll
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Labccv2\Labccv2\bin\Debug\log4net.xml

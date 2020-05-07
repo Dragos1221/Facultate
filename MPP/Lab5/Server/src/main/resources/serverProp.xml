@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="jdbc" class="ProjectRepository.JdbcUtils">
+    </bean>
+
+    <bean id="offRep" class="ProjectRepository.OfficeRepository">
+        <constructor-arg ref="jdbc"/>
+    </bean>
+
+    <bean id="offServ" class="ServiceImplementation.ServiceOficii">
+        <constructor-arg ref="offRep"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="Chat"/>
+        <property name="service" ref="offServ"/>
+        <property name="serviceInterface" value="ServiceInterface.IServiceOficii"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+
+</beans>

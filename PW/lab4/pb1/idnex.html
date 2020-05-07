@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+     	$("option").dblclick(function(){
+     		if($(this).parents().get(0).id =="lista1")
+     		{
+     			$("#lista2").append(this);
+     		}
+     		else
+     		{
+     			$("#lista1").append(this);
+     		}
+     	});
+     });	
+</script>
+</head>
+<body>
+
+
+
+
+<select id="lista1" size="5">
+  <option  ovalue="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+<select id="lista2" size="5">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+
+
+
+</body>
+</html>

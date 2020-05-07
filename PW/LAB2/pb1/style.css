@@ -1,0 +1,21 @@
+.box {
+ border-style: solid;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.box1{
+	flex: 1;
+	width: 200;
+}
+p{
+	max-width:200px;
+	text-align: center;
+}
+
+ 
+ img{
+ 	align-items: center;
+ 	max-width: : 200px;	
+ }

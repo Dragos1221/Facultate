@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+<style>
+	div{
+			width: 50px;
+			float: left;
+
+	}
+	button{
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+</style>
+
+<FORM>
+	<div>
+	 <label>Nume:</label>
+	</div>
+	
+	  <input type="text" id="nume"><br>
+	
+	<div>
+	  <label>Data:</label>
+	</div>
+	
+	  <input type="text" id="data"><br>
+	
+	<div>
+	  <label>Varsta:</label>
+	</div>
+	
+	  <input type="text" id="varsta"><br>
+
+	<div>
+	  <label>Email:</label>
+	</div>
+	  <input type="text" id="email"><br>
+</FORM>
+<button  id="btn">Submit</button>
+
+<script>
+	$("#btn").click(function(){
+		verifica();
+	});
+	
+	function verifica()
+	{
+		 var nume = $("#nume");
+		 var varsta = $('#varsta');
+		 var email =$('#email');
+		 var data = $('#data');
+		 var err='Campurile: ';
+		 var arr = [0,nume,0,varsta,0,email,0,data];
+		 var re = /\S+@\S+\.\S+/;
+		 nume.css("borderColor","white");
+		 varsta.css("borderColor","white");
+		 email.css("borderColor","white");
+		 data.css("borderColor","white");
+         if(!re.test(email.val()))
+        	{
+        		arr[4]=1;
+        		err+=" email ";
+        	}
+        if(nume.val() =="")
+        {
+        	arr[0]=1;
+        	err+=" nume"
+        }
+        if(!Number.parseInt(varsta.val()))
+        {
+        	arr[2]=1;
+        	err+=" varsta";
+        }
+
+         var dateformat = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
+         var sir = data.val();
+         if(!dateformat.test(sir))
+         {
+         	arr[6]=1;
+         	err+=" data";
+         }
+         if(err == "Campurile: ")
+         {
+         	window.alert("Ati completat corect!");
+         	nume.value="";
+		 	varsta.value="";
+		 	email.value="";
+		 	data.value="";
+         }
+         else{
+         	err+=" nu sunt corecte!";
+         	window.alert(err);
+         	for(var i=0;i<=7;i+=2)
+         	{
+         		if(arr[i] == 1)
+         		{
+         			arr[i+1].value="";
+         			arr[i+1].css("borderColor","red");
+         		}
+         	}
+     	}
+	}
+</script>
+
+</body>
+</html>

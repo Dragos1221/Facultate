@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+	td{
+		width: 100px;
+		height: 100px;
+		text-align: center;
+	}
+	div{
+		padding: 0;
+		display: none;
+		text-align: center;
+	}
+</style>
+
+
+
+<table border="1" id="tabel">
+	<tr>
+		<td onclick="functie(this)">
+		 <div>1</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>2</div>
+		</td>
+		<td onclick="functie(this)"> 
+			<div>3</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>4</div>
+		</td>
+	</tr>
+	<tr>
+		<td onclick="functie(this)">
+		 <div>1</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>2</div>
+		</td>
+		<td onclick="functie(this)"> 
+			<div>3</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>4</div>
+		</td>
+	</tr>
+	<tr>
+		<td onclick="functie(this)">
+		 <div>5</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>6</div>
+		</td>
+		<td onclick="functie(this)"> 
+			<div>7</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>8</div>
+		</td>
+	</tr>
+	<tr>
+		<td onclick="functie(this)">
+		 <div>5</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>6</div>
+		</td>
+		<td onclick="functie(this)"> 
+			<div>7</div>
+		</td>
+		<td onclick="functie(this)">
+			<div>8</div>
+		</td>
+	</tr>
+</table>
+
+<script>
+	var ok=0;
+	var cev;
+	function functie(e)
+	{
+		var di = e.children[0];
+		if(di.style.display == "block")
+		{
+		
+		}
+		else
+		{
+			di.style.display = "block";
+			ok+=1;
+			if(ok == 1)
+			{
+				cev = di;
+			}
+			else
+			{
+				if(cev.innerHTML == di.innerHTML)
+				{
+					ok=0;
+				}
+				else
+				{
+				 	setTimeout(function(){ 
+				 		ok=0;
+						di.style.display="none";
+						cev.style.display="none"; 
+                	}, 1000);				
+				}
+			}
+		}
+	}
+</script>
+
+</body>
+</html>

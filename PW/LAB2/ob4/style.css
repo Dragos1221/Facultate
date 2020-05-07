@@ -1,0 +1,65 @@
+.pic {
+  display: flex;
+  flex-direction: row;
+  counter-reset: var(--count);
+  width: fit-content;
+}
+
+.pic img {
+  width: 84px;
+  height: 84px;
+  background-image: url(sprites.png);
+  background-repeat: no-repeat;
+  background-position: calc(var(--count) * -84px) -84px;
+}
+
+.pic img:hover {
+  background-position: calc(var(--count) * -84px) 0;
+}
+
+.pic img::after {
+  counter-increment: var(--count);
+}
+
+#fb {
+  --count: 0;
+}
+
+#flickr {
+  --count: 1;
+}
+
+#dribbble {
+  --count: 2;
+}
+
+#gplus {
+  --count: 3;
+}
+
+#linkedin {
+  --count: 4;
+}
+
+#pinterest {
+  --count: 5;
+}
+
+#rss {
+  --count: 6;
+}
+
+#skype {
+  --count: 7;
+}
+
+#twitter {
+  --count: 8;
+}
+
+#vimeo {
+  --count: 9;
+}
+#youtube {
+  --count: 10;
+}

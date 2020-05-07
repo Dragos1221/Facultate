@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+	td{
+		width: 100px;
+		height: 100px;
+		text-align: center;
+	}
+	div{
+		padding: 0;
+		display: none;
+		text-align: center;
+	}
+	
+</style>
+
+
+
+<table border="1" id="tabel">
+	<tr>
+		<td>
+		 <div id="1">1</div>
+		</td>
+		<td >
+			<div>2</div>
+		</td>
+		<td > 
+			<div>3</div>
+		</td>
+		<td >
+			<div>4</div>
+		</td>
+	</tr>
+	<tr>
+		<td >
+		 <div>1</div>
+		</td>
+		<td >
+			<div>2</div>
+		</td>
+		<td> 
+			<div>3</div>
+		</td>
+		<td >
+			<div>4</div>
+		</td>
+	</tr>
+	<tr>
+		<td >
+		 <div>5</div>
+		</td>
+		<td >
+			<div>6</div>
+		</td>
+		<td > 
+			<div>7</div>
+		</td>
+		<td >
+			<div>8</div>
+		</td>
+	</tr>
+	<tr>
+		<td >
+		 <div>5</div>
+		</td>
+		<td >
+			<div>6</div>
+		</td>
+		<td > 
+			<div>7</div>
+		</td>
+		<td >
+			<div>8</div>
+		</td>
+	</tr>
+</table>
+
+<script>
+	var ok=0;
+	var cev;
+	function functie(e)
+	{
+		var di = e.children[0];
+		if(di.style.display == "block")
+		{
+		
+		}
+		else
+		{
+			di.style.display = "block";
+			ok+=1;
+			if(ok == 1)
+			{
+				cev = di;
+			}
+			else
+			{
+				if(cev.innerHTML == di.innerHTML)
+				{
+					ok=0;
+				}
+				else
+				{
+				 	setTimeout(function(){ 
+				 		ok=0;
+						di.style.display="none";
+						cev.style.display="none"; 
+                	}, 1000);				
+				}
+			}
+		}
+	}
+
+	$(document).ready(function(){
+		$("td").click(function(){
+		if($(this).children(0).css('display') != "block")
+		{
+				$(this).children(0).css('display' , "block");	
+				ok+=1;
+				if(ok == 1)
+				{
+					cev = $(this).children(0);
+				}
+				else
+				{
+					if(cev.text() == $(this).children(0).text())
+					{
+						ok=0;
+					}
+					else
+					{
+						setInterval(() => {
+				        ok=0;
+						$(this).children(0).css('display', "none");
+						cev.css('display', "none");
+				      }, 200);
+
+					}
+				}
+				
+		}
+		
+		})
+	});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+	td{
+		width: 160px;
+		height: 100px;
+		text-align: center;
+	}
+	div{
+		padding: 0;
+		text-align: center;
+	}
+	img{
+		width: 160px;
+		height: 100px;
+	}
+</style>
+
+
+
+<table border="1" id="tabel">
+	<tr>
+		<td>
+		 <div><img src="semn.png" visibility: visibility> <img src="maro.png" visibility: hidden></div>
+		</td>
+		<td>
+			 <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+		<td> 
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td>
+			 <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+	<tr>
+		<td >
+		  <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+		<td >
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td > 
+			 <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+		<td >
+			 <div><img src="semn.png"> <img src="maro.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+	<tr>
+		<td >
+		  <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+		<td >
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td > 
+			 <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+		<td >
+			 <div><img src="semn.png"> <img src="maro.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+	<tr>
+		<td >
+		  <div><img src="semn.png"> <img src="maro.png" visibility: hidden></div></div>
+		</td>
+		<td >
+			 <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+		<td > 
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td >
+			 <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+</table>
+
+<script>
+	var ok=0;
+	var cev;
+	function functie(e)
+	{
+		var di = e.children[0];
+		var img1 = di.children[0];
+		var img12 = di.children[1];
+		if(img1.style.display != "none")
+		{
+			img1.style.display="none";
+			img12.style.display = "block";
+			ok+=1;
+			if(ok == 1)
+			{
+				cev=di;
+			}
+			else
+			{
+				var img31 =di.children[1];
+				var img32 =cev.children[1];
+				if(img31.src != img32.src)
+				{
+						setTimeout(function(){ 
+							img31.style.display="none";
+							img32.style.display="none";
+							di.children[0].style.display = "block";
+							cev.children[0].style.display = "block";
+
+                		}, 500);
+				}
+				ok=0;
+			}
+		}		
+	}
+
+	$(document).ready(function(){
+			$("td").click(function(){
+				var di =$(this).children(0);
+				var img1 = di.children(0);
+				var img12 =di.children().eq(1);
+				if(img1.css("display") != "none")
+				{
+					img1.css("display" , "none");
+					img12.css("display" , "block")
+					ok+=1;
+					if(ok == 1)
+					{
+						cev=di;
+					}
+					else
+					{
+						var img31 =di.children().eq(1);
+						var img32 =cev.children().eq(1);
+						if(img31.attr("src") != img32.attr("src"))
+						{
+							setTimeout(function(){ 
+								img31.css("display" , "none");
+								img32.css("display" , "none");
+								di.children().eq(0).css("display" , "block");
+								cev.children().eq(0).css("display" , "block");
+							}, 200);
+						}
+						ok=0;
+					}
+				}
+			})
+		});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\bin\Debug\BDLab2.exe.config
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\bin\Debug\BDLab2.exe
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\bin\Debug\BDLab2.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\obj\Debug\BDLab2.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\obj\Debug\BDLab2.Form1.resources
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\obj\Debug\BDLab2.Properties.Resources.resources
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\obj\Debug\BDLab2.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\obj\Debug\BDLab2.exe
+C:\Users\Dragos\Desktop\FacultateInfo\BD\Lab2\BDLab2\BDLab2\obj\Debug\BDLab2.pdb

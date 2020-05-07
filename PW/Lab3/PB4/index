@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<style >
+		td{
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+
+<table border="1">
+	<th>
+		<td></td>
+		<td></td>
+		<td></td>
+	</th>
+
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+	td{
+		width: 160px;
+		height: 100px;
+		text-align: center;
+	}
+	div{
+		padding: 0;
+		text-align: center;
+	}
+	img{
+		width: 160px;
+		height: 100px;
+	}
+</style>
+
+
+
+<table border="1" id="tabel">
+	<tr>
+		<td onclick="functie(this)">
+		 <div><img src="semn.png" visibility: visibility> <img src="maro.png" visibility: hidden></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)"> 
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+	<tr>
+		<td onclick="functie(this)">
+		  <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)"> 
+			 <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="maro.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+	<tr>
+		<td onclick="functie(this)">
+		  <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)"> 
+			 <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="maro.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+	<tr>
+		<td onclick="functie(this)">
+		  <div><img src="semn.png"> <img src="maro.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="verde.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)"> 
+			 <div><img src="semn.png"> <img src="albastru.png" visibility: hidden></div></div>
+		</td>
+		<td onclick="functie(this)">
+			 <div><img src="semn.png"> <img src="rosu.png" visibility: hidden></div></div>
+		</td>
+	</tr>
+</table>
+
+<script>
+	var ok=0;
+	var cev;
+	function functie(e)
+	{
+		var di = e.children[0];
+		var img1 = di.children[0];
+		var img12 = di.children[1];
+		if(img1.style.display != "none")
+		{
+			img1.style.display="none";
+			img12.style.display = "block";
+			ok+=1;
+			if(ok == 1)
+			{
+				cev=di;
+			}
+			else
+			{
+				var img31 =di.children[1];
+				var img32 =cev.children[1];
+				if(img31.src != img32.src)
+				{
+						setTimeout(function(){ 
+							img31.style.display="none";
+							img32.style.display="none";
+							di.children[0].style.display = "block";
+							cev.children[0].style.display = "block";
+
+                		}, 500);
+				}
+				ok=0;
+			}
+		}
+
+		
+	}
+</script>
+
+</body>
+</html>

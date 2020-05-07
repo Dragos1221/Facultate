@@ -1,0 +1,9 @@
+rootProject.name = 'Lab3_2'
+include 'Service'
+include 'Service'
+include 'Model'
+include 'Persistance'
+include 'ClientFX'
+include 'Network'
+include 'Serverv'
+

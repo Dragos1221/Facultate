@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+
+	<style >
+		td{
+			width: 100px;
+			height: 100px;
+		}
+		th{
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+
+
+<table border="1">
+	<tr >
+		<th><div id="-1"></div> Pere</th>
+		<td>2</td>
+		<td>1</td>
+		<td>2</td>
+		<td>1</td>
+		<td>2</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<th><div id="-1"> Mere</div> </th>
+		<td>2</td>
+		<td>3</td>
+		<td>2</td>
+		<td>1</td>
+		<td>2</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<th ><div id="-1"> Prune</div> </th>
+		<td>2</td>
+		<td>2</td>
+		<td>2</td>
+		<td>1</td>
+		<td>2</td>
+		<td>1</td>
+	</tr>
+</table>
+
+<script >
+	var ok = -1;
+	$(document).ready(function(){
+		$("th").click(function(){
+			var ok = $(this).children(0).attr("id");
+			var tr= $(this).parent().eq(0);
+			var listTd=[];
+			var listTd = tr.children("td");
+			var listVal=[];
+			var i;
+			for(i=0;i<listTd.length;++i)
+			{
+				var str=listTd.eq(i).html();
+				listVal.push(str);
+			}
+			if(ok==-1 || ok==1){
+				listVal.sort();
+				for(i=0;i<listTd.length;++i)
+				{
+					listTd.eq(i).text(listVal[i]);
+				}
+				$(this).children(0).prop("id" , '2');
+		    }else
+		    {
+		    	listVal.sort();
+		    	listVal.reverse();
+		    	for(i=0;i<listTd.length;++i)
+				{
+					listTd.eq(i).text(listVal[i]);
+				}
+				$(this).children(0).prop("id" , '1');
+
+		    }
+		})
+	});
+</script>
+
+
+</body>
+</html>

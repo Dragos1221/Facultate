@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+	
+	div{
+			width: 50px;
+			float: left;
+
+	}
+	button{
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+</style>
+
+<FORM>
+	<div>
+	 <label>Nume:</label>
+	</div>
+	
+	  <input type="text" id="nume"><br>
+	
+	<div>
+	  <label>Data:</label>
+	</div>
+	
+	  <input type="text" id="data"><br>
+	
+	<div>
+	  <label>Varsta:</label>
+	</div>
+	
+	  <input type="text" id="varsta"><br>
+
+	<div>
+	  <label>Email:</label>
+	</div>
+	  <input type="text" id="email"><br>
+</FORM>
+<button onclick="verifica()" >Submit</button>
+
+<script>
+	function verifica()
+	{
+		 var nume = document.getElementById('nume');
+		 var varsta = document.getElementById('varsta');
+		 var email =document.getElementById('email');
+		 var data = document.getElementById('data');
+		 var err='Campurile: ';
+		 var arr = [0,nume,0,varsta,0,email,0,data];
+		 var re = /\S+@\S+\.\S+/;
+		 nume.style='';
+		 varsta.style='';
+		 email.style='';
+		 data.style='';
+         if(!re.test(email.value))
+        	{
+        		arr[4]=1;
+        		err+=" email ";
+        	}
+        if(nume.value =="")
+        {
+        	arr[0]=1;
+        	err+=" nume"
+        }
+        if(!Number.parseInt(varsta.value))
+        {
+        	arr[2]=1;
+        	err+=" varsta";
+        }
+
+         var dateformat = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
+         if(!data.value.match(dateformat))
+         {
+         	arr[6]=1;
+         	err+=" data";
+         }
+         if(err == "Campurile: ")
+         {
+         	window.alert("Ati completat corect!");
+         	nume.value="";
+		 	varsta.value="";
+		 	email.value="";
+		 	data.value="";
+
+         }
+         else{
+         	err+=" nu sunt corecte!";
+         	window.alert(err);
+         	for(var i=0;i<=7;i+=2)
+         	{
+         		if(arr[i] == 1)
+         		{
+         			arr[i+1].value="";
+         			arr[i+1].style.borderColor = "red";
+         		}
+
+         	}
+     	}
+	}
+</script>
+
+</body>
+</html>

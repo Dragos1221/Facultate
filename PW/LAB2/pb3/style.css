@@ -1,0 +1,63 @@
+.header{
+	height: 100px;
+	background-color: red;
+}
+p{
+	margin-top: 0;
+}
+
+.menu{
+	height: 25px;
+	background-color: yellow;
+}
+
+li{
+	display: inline;
+	padding: 100px;
+	
+}
+
+ul{
+	margin-top: 0;
+}
+
+.view{
+	
+  text-align: center;
+  flex: 1;
+  display: inline-flex;
+  background-color: green;
+  align-items: center;
+
+}
+
+.footer{
+	height:60px;
+	background-color: pink;
+}
+.box{
+	display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.container{
+	display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+
+}
+
+.paragraph-container {
+  flex: 1;
+  width: 100%;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  height: 100%;
+}

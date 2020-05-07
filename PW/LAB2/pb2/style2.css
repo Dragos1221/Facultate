@@ -1,0 +1,31 @@
+.header{
+	height: 200px;
+	background-color: red;
+}
+p{
+	margin-top: 0;
+}
+
+.menu{
+	float: left;
+	height: 600px;
+	background-color: yellow;
+}
+li{
+	padding: 10px;
+}
+
+
+ul{
+	margin-top: 0;
+}
+
+.view{
+	height: 600px;
+	background-color: green;
+}
+
+.footer{
+	height:200px;
+	background-color: pink;
+}

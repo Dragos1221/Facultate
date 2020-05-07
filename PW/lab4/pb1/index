@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<select id="lista1" size="5">
+  <option ondblclick="muta(this)" ovalue="volvo">Volvo</option>
+  <option ondblclick="muta(this)"value="saab">Saab</option>
+  <option ondblclick="muta(this)" value="mercedes">Mercedes</option>
+  <option ondblclick="muta(this)" value="audi">Audi</option>
+</select>
+
+<select id="lista2" size="5">
+  <option ondblclick="muta(this)" value="volvo">Volvo</option>
+  <option ondblclick="muta(this)" value="saab">Saab</option>
+  <option ondblclick="muta(this)" value="mercedes">Mercedes</option>
+  <option ondblclick="muta(this)" value="audi">Audi</option>
+</select>
+
+<script>
+		function muta(e)
+		{
+			var lista11=document.getElementById('lista1');
+			var lista21=document.getElementById('lista2');
+			if( e.parentElement.id === "lista1")
+			{
+				var inn = lista21;
+				inn.appendChild(e);
+			}
+			else
+			{
+				var inn = lista11;
+				inn.appendChild(e);
+			}
+			
+		}
+</script>
+
+
+
+
+</body>
+</html>

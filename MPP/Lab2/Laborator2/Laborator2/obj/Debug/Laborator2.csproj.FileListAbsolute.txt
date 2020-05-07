@@ -1,0 +1,5 @@
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Laborator2\Laborator2\bin\Debug\Laborator2.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Laborator2\Laborator2\bin\Debug\Laborator2.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Laborator2\Laborator2\obj\Debug\Laborator2.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Laborator2\Laborator2\obj\Debug\Laborator2.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Laborator2\Laborator2\obj\Debug\Laborator2.pdb

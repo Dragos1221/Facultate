@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Dragos\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Dragos\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Lab2MPPC.-2014767574.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPC" t="IncludeFlat">
+      <e p="Lab2MPPC" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Domain" t="Include">
+          <e p="Destinatie.cs" t="Include" />
+          <e p="Oficiu.cs" t="Include" />
+          <e p="Rezervare.cs" t="Include" />
+        </e>
+        <e p="Lab2MPPC.csproj" t="IncludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+      </e>
+      <e p="Lab2MPPC.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

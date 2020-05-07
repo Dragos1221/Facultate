@@ -1,0 +1,10 @@
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\bin\Debug\Lab2MPPCC.exe.config
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\bin\Debug\Lab2MPPCC.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\bin\Debug\Lab2MPPCC.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\obj\Debug\Lab2MPPCC.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\obj\Debug\Lab2MPPCC.Properties.Resources.resources
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\obj\Debug\Lab2MPPCC.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\obj\Debug\Lab2MPPCC.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\obj\Debug\Lab2MPPCC.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\bin\Debug\log4net.dll
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Lab2MPPCC\Lab2MPPCC\bin\Debug\log4net.xml

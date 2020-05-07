@@ -1,0 +1,33 @@
+img
+{
+	height: 200px;
+	width: 200px;
+}
+
+.container{
+  align-items: center;
+
+  flex-direction: row;
+  width: 620px;
+  height: 620px;
+  border-style: solid;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+
+.chenar{
+	background-color: blue;
+	margin: auto;
+	border-style: solid;
+	align-items: center;
+	padding: 10px;
+}
+
+p{
+	text-align: center;
+}
+
+
+
+

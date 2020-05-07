@@ -1,0 +1,12 @@
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\bin\Debug\Test1.exe.config
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\obj\Debug\Test1.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\obj\Debug\Test1.Properties.Resources.resources
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\obj\Debug\Test1.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\bin\Debug\Test1.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\bin\Debug\Test1.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\obj\Debug\Test1.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\obj\Debug\Test1.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\bin\Debug\Oficii.db
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\Test1\Test1\bin\Debug\Oficii

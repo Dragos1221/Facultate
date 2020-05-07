@@ -1,0 +1,11 @@
+rootProject.name = 'untitled1'
+include 'Persistence'
+findProject(':Persistence')?.name = 'untitled'
+include 'Model'
+findProject(':Model')?.name = 'Modell'
+include 'Service'
+include 'ClientFX'
+include 'Server'
+include 'Networking'
+include 'Client'
+

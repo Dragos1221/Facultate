@@ -1,0 +1,3 @@
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\LabCC\LabCC\bin\Debug\LabCC.exe.config
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\LabCC\LabCC\obj\Debug\LabCC.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\LabCC\LabCC\obj\Debug\LabCC.csproj.GenerateResource.Cache

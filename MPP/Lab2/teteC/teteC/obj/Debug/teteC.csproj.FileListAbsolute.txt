@@ -1,0 +1,9 @@
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\bin\Debug\teteC.exe.config
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\bin\Debug\teteC.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\bin\Debug\teteC.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\obj\Debug\teteC.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\obj\Debug\teteC.Properties.Resources.resources
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\obj\Debug\teteC.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\obj\Debug\teteC.exe
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\obj\Debug\teteC.pdb
+C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab2\teteC\teteC\obj\Debug\teteC.Form1.resources
