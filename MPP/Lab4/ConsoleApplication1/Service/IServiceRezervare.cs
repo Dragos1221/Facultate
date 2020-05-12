@@ -12,6 +12,7 @@ namespace Service
     {
         DataSet getRezervazri( int id);
         bool save(Rezervare rez);
+        List<Rezervare> getLista(int id);
        
     }
 }

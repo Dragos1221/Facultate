@@ -2,7 +2,7 @@
 namespace Model
 {
     
-     [Serializable]public class Oficiu
+     public class Oficiu
     {
         private string User;
         private string Password;

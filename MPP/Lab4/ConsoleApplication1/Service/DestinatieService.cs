@@ -41,7 +41,9 @@ namespace Service
             rep.update(dest);
         }
 
-
-
+        public List<Destinatie> returnList()
+        {
+            return rep.returnList();
+        }
     }
 }

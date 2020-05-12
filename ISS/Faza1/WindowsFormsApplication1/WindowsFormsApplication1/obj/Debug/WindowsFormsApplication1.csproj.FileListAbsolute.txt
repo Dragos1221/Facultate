@@ -14,3 +14,6 @@ C:\Users\Dragos\Desktop\FacultateInfo\ISS\Faza1\WindowsFormsApplication1\Windows
 C:\Users\Dragos\Desktop\FacultateInfo\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 C:\Users\Dragos\Desktop\FacultateInfo\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Migrations._1.resources
 C:\Users\Dragos\Desktop\FacultateInfo\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.LoginWindow.resources
+C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

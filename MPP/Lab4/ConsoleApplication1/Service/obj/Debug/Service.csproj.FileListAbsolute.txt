@@ -12,3 +12,17 @@ C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab4\ConsoleApplication1\Service\bin\D
 C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\log4net.xml
 C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab4\ConsoleApplication1\Service\obj\Debug\Service.exe
 C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab4\ConsoleApplication1\Service\obj\Debug\Service.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\Service.exe.config
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\Service.exe
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\Service.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\Model.exe
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\Persistence.exe
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\System.Data.SQLite.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\log4net.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\Model.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\Persistence.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\System.Data.SQLite.xml
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\bin\Debug\log4net.xml
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\obj\Debug\Service.exe
+C:\Users\Dragos\Desktop\University\MPP\Lab4\ConsoleApplication1\Service\obj\Debug\Service.pdb

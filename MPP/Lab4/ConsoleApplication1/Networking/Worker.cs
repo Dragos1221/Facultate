@@ -8,7 +8,10 @@ using Service;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Data;
-
+using Model;
+using Protocol;
+using proto = Protocol;
+using Google.Protobuf;
 namespace Networking
 {
     class Worker:IObserver
@@ -48,8 +51,9 @@ namespace Networking
             {
                 try
                 {
-                    object request = formatter.Deserialize(stream);
-                    raspunde((Request)request);        
+                    //object request = formatter.Deserialize(stream);
+                    Request request = Request.Parser.ParseDelimitedFrom(stream);
+                    raspunde(request);        
                 }
                 catch (Exception e)
                 {
@@ -64,7 +68,7 @@ namespace Networking
 
         private void raspunde(Request r)
         {
-            switch(r.getMesaj())
+            switch(r.Mess)
             {
                 case "Login":
                     login(r);
@@ -75,13 +79,13 @@ namespace Networking
                 case "getRezervazri":
                     getRezervazri(r);
                     break;
-                case "DestinatiiRep":
+                case "getListDestinatii":
                     DestinatiiRep();
                         break;
                 case "getDestinatie":
                     getDestinatie(r);
                     break;
-                case "update":
+                case "Update":
                     update(r);
                     break;
                 case "getIdDestinatie":
@@ -95,75 +99,131 @@ namespace Networking
 
         private void  writeResponse(Response resp)
         {
-            formatter.Serialize(stream, resp);
+            resp.WriteDelimitedTo(stream);
             stream.Flush();
         }
 
         public void login(Request r)
         {
-            bool b = offServ.logIn(r.getOficiu(),this);
-            Response resp = new Response("ok");
-            resp.setBol(b);
-            writeResponse(resp);
+            Oficiu of = new Oficiu(r.User.Username, r.User.Passwdord);
+            bool b = offServ.logIn(of,this);
+            proto.Response respp = new proto.Response { Mess = "ok", RBool = b };
+            writeResponse(respp);
         }
 
         public void save(Request r)
         {
-            bool b = rezSrev.save(r.getRezervare());
-            Response resp = new Response("ok");
-            resp.setBol(b);
+            Model.Rezervare rez = new Model.Rezervare(r.Rezervare.IdDestinatie, r.Rezervare.LocuriOcupate, r.Rezervare.Nume);
+            bool b = rezSrev.save(rez);
+            proto.Response resp = new proto.Response { Mess = "ok", RBool = b };
             writeResponse(resp);
             offServ.notifica(destServ.DestinatiiRep());
         }
 
         public void getRezervazri(Request r)
         {
-            Response resp = new Response("ok");
-            resp.setDs(rezSrev.getRezervazri( r.getId()));
-            writeResponse(resp); ;
+            List<Model.Rezervare> list = rezSrev.getLista(r.Id);
+            proto.Response resp = new proto.Response {Mess="ok" };
+            foreach(Model.Rezervare rez in list)
+            {
+                resp.ListaRezervari.Add(new proto.Rezervare { IdDestinatie = rez.IdDestinatie, LocuriOcupate = rez.LocuriRezervate1, Nume = rez.Nume1 });
+            }
+           writeResponse(resp); ;
         }
         public void DestinatiiRep()
         {
-            Response resp = new Response("ok");
-            resp.setDs(destServ.DestinatiiRep());
+            proto.Response resp = new proto.Response { Mess = "ok" };
+            List<Model.Destinatie> list = destServ.returnList();
+            foreach(Model.Destinatie dest in list)
+            {
+                resp.ListaDestinatii.Add(new proto.Destinatie
+                {
+                    Id = dest.Id,
+                    LocuriDisponibile = dest.LocuriDisponibile1,
+                    LocuriOcupate = dest.LocuriOcupate1,
+                    An = dest.Local.Year,
+                    Luna = dest.Local.Month,
+                    Zi = dest.Local.Day,
+                    Ora = dest.Local.Hour,
+                    Minute = dest.Local.Minute,
+                    Destinatie_ = dest.DestinatieStr1
+                    
+                });
+            }
             writeResponse(resp);
         }
 
         public void getDestinatie(Request r)
         {
-            Response resp = new Response("ok");
-            resp.setDestinatie(destServ.getDestinatie(r.getId()));
+            //Response resp = new Response("ok");
+            Model.Destinatie dest = destServ.getDestinatie(r.Id);
+            proto.Destinatie d = new proto.Destinatie {
+                Id = dest.Id,
+                LocuriDisponibile = dest.LocuriDisponibile1,
+                LocuriOcupate = dest.LocuriOcupate1,
+                An = dest.Local.Year,
+                Luna = dest.Local.Month,
+                Zi = dest.Local.Day,
+                Ora = dest.Local.Hour,
+                Minute = dest.Local.Minute
+            };
+            proto.Response resp = new proto.Response { Mess = "ok" };
+            resp.ListaDestinatii.Add(d);
             writeResponse(resp);
         }
         public void update(Request r)
         {
-            destServ.update(r.getDestinatie());
+            int luna = r.DestObj.Luna;
+            int zi = r.DestObj.Zi;
+            int an = r.DestObj.An;
+            int ora = r.DestObj.Ora;
+            int min = r.DestObj.Minute;
+            DateTime t = new DateTime(an, luna, zi, ora, min, 0);
+            Model.Destinatie dest = new Model.Destinatie(r.DestObj.Id, r.DestObj.LocuriDisponibile,
+                r.DestObj.LocuriOcupate, r.DestObj.Destinatie_, t);
+            destServ.update(dest);
         }
 
        public void getIdDestinatie(Request r)
         {
-            Response resp = new Response("ok");
-            string[] list = r.getLocalDateTime().Split(' ');
-            int luna =Int32.Parse(list[0].Split('/')[0]);
-            int zi = Int32.Parse(list[0].Split('/')[1]);
-            int an = Int32.Parse(list[0].Split('/')[2]);
-            int ora = Int32.Parse(list[1].Split(':')[0]);
-            int min = Int32.Parse(list[1].Split(':')[1]);
+            int luna = r.Luna;
+            int zi = r.Zi;
+            int an = r.An;
+            int ora = r.Ora;
+            int min = r.Minute;
             DateTime t = new DateTime(an, luna, zi, ora, min, 0);
-            resp.setId(destServ.getIdDestinatie(r.getDestinatieStr(), t));
+            int id = destServ.getIdDestinatie(r.DestinatieStr, t);
+            proto.Response resp = new proto.Response { Id = id, Mess = "ok" };
             writeResponse(resp);
         }
 
         public void reloadList(DataSet d)
         {
-            Response resp = new Response("Observer");
-            resp.setDs(d);
+            //Response resp = new Response("Observer");
+            proto.Response resp = new proto.Response { Mess = "Observer" };
+            List<Model.Destinatie> list = destServ.returnList();
+            foreach (Model.Destinatie dest in list)
+            {
+                resp.ListaDestinatii.Add(new proto.Destinatie
+                {
+                    Id = dest.Id,
+                    LocuriDisponibile = dest.LocuriDisponibile1,
+                    LocuriOcupate = dest.LocuriOcupate1,
+                    An = dest.Local.Year,
+                    Luna = dest.Local.Month,
+                    Zi = dest.Local.Day,
+                    Ora = dest.Local.Hour,
+                    Minute = dest.Local.Minute,
+                    Destinatie_ = dest.DestinatieStr1
+
+                });
+            }
             writeResponse(resp);
         }
 
         public void logout()
         {
-            Response r = new Response("logout");
+            proto.Response r = new Response { Mess = "logout" };
             writeResponse(r);
             connected = false;
         }

@@ -15,9 +15,9 @@ namespace Persistence
         static private ILog logg = LogManager.GetLogger("Task");
         static void Main(string[] args)
         {
-         
-          
-
+            DestinatieRepository rep = new DestinatieRepository();
+            rep.returnList();
+ 
         }
     }
 }

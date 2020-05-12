@@ -19,6 +19,11 @@ namespace Service
             rep = re;
         }
 
+        public List<Rezervare> getLista(int id)
+        {
+            return rep.getList(id);
+        }
+
         public DataSet getRezervazri(int id)
         {
             DataSet ds = new DataSet();
@@ -30,6 +35,8 @@ namespace Service
         {
             return rep.save(rez);
         }
+
+
 
        
     }

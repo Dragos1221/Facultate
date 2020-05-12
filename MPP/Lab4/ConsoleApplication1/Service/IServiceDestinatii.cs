@@ -15,5 +15,6 @@ namespace Service
          int getIdDestinatie(string destinatie, DateTime timp);
          Destinatie getDestinatie(int idDest);
          void update(Destinatie dest);
+        List<Destinatie> returnList();
     }
 }

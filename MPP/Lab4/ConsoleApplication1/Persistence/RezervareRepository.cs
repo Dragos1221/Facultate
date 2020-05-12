@@ -40,13 +40,9 @@ namespace Persistence
                         string nume = data.GetString(2);
                         list.Add(new Rezervare(id, nr, nume));
                     }
-
                 }
                 return list;
             }
-
-
-
         }
 
         public bool save(Rezervare rez)
