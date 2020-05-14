@@ -10,6 +10,10 @@ namespace Model
     {
         static void Main(string[] args)
         {
+            Oficiu of=new Oficiu("dragos" , "ceva");
+            Context c = new Context();
+            c.b.Add(of);
+            c.SaveChanges();
         }
     }
 }

@@ -30,3 +30,5 @@ C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Networking\bin\D
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Networking\obj\Debug\Networking.csprojResolveAssemblyReference.cache
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Networking\obj\Debug\Networking.exe
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Networking\obj\Debug\Networking.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Networking\bin\Debug\EntityFramework.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Networking\bin\Debug\EntityFramework.xml

@@ -44,3 +44,5 @@ C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Client\obj\Debug
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Client\obj\Debug\Client.Form2.resources
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Client\obj\Debug\Client.Properties.Resources.resources
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Client\bin\Debug\EntityFramework.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Client\bin\Debug\EntityFramework.xml

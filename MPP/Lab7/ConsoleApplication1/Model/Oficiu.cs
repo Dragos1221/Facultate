@@ -1,11 +1,16 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Model
 {
-    
+    [Table("Oficii")]
      [Serializable]public class Oficiu
     {
-        private string User;
-        private string Password;
+        [Key(), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public string User { get; set; }
+        [StringLength(40)]
+        public string Password { get; set; }
 
         public Oficiu(string user, string password)
         {

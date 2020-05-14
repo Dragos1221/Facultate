@@ -22,3 +22,5 @@ C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Persistence\bin\
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Persistence\obj\Debug\Persistence.csprojResolveAssemblyReference.cache
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Persistence\obj\Debug\Persistence.exe
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Persistence\obj\Debug\Persistence.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Persistence\bin\Debug\EntityFramework.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Persistence\bin\Debug\EntityFramework.xml

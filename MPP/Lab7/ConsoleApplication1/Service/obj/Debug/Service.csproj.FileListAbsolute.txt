@@ -26,3 +26,5 @@ C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Service\bin\Debu
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Service\obj\Debug\Service.exe
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Service\obj\Debug\Service.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Service\bin\Debug\EntityFramework.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Service\bin\Debug\EntityFramework.xml

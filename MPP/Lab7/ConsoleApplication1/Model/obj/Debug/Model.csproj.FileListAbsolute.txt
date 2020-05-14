@@ -6,6 +6,12 @@ C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab4\ConsoleApplication1\Model\obj\Deb
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\Model.exe.config
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\Model.exe
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\Model.pdb
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\EntityFramework.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\System.Data.Common.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\EntityFramework.xml
+C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\obj\Debug\Model.exe
 C:\Users\Dragos\Desktop\University\MPP\Lab7\ConsoleApplication1\Model\obj\Debug\Model.pdb
