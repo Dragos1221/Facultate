@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="crastonel" uuid="6bf738b8-8534-4e9c-a089-a7ee2ff72dd8">
+    <data-source source="LOCAL" name="Oficii [2]" uuid="846692df-0b2a-4fa5-bd58-cdce7cb3c751">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Dragos\Desktop\University\MPP\Lab7_2\crastonel.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\Dragos\Desktop\University\MPP\Lab7_2\Oficii</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>

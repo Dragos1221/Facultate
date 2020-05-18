@@ -3,6 +3,7 @@ package ProjectRepository;
 
 
 import ProjectModels.Rezervare;
+import RepositoryInterfaces.IRezervareREpository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,7 +14,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RezervareRepository {
+public class RezervareRepository implements IRezervareREpository {
     private static final Logger logger= LogManager.getLogger();
     private JdbcUtils jdbc;
 

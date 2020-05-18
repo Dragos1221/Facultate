@@ -55,28 +55,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(637, 55);
+            this.textBox1.Location = new System.Drawing.Point(637, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(185, 20);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(637, 81);
+            this.textBox2.Location = new System.Drawing.Point(637, 38);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(185, 20);
             this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(637, 107);
+            this.textBox3.Location = new System.Drawing.Point(637, 64);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(185, 20);
             this.textBox3.TabIndex = 3;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(543, 55);
+            this.label1.Location = new System.Drawing.Point(543, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 20);
             this.label1.TabIndex = 4;
@@ -85,7 +85,7 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(540, 81);
+            this.label2.Location = new System.Drawing.Point(540, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 20);
             this.label2.TabIndex = 5;
@@ -94,7 +94,7 @@
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(540, 107);
+            this.label3.Location = new System.Drawing.Point(540, 64);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 6;

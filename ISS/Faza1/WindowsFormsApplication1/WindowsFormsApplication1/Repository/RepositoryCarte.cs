@@ -7,7 +7,7 @@ using WindowsFormsApplication1.Model;
 
 namespace WindowsFormsApplication1.Repository
 {
-    class RepositoryCarte
+   public class RepositoryCarte
     {
         private Context con;
         public RepositoryCarte(Context c)
@@ -26,6 +26,41 @@ namespace WindowsFormsApplication1.Repository
                 return false;
             }
             return true;
+        }
+        public void delete(int id)
+        {
+            try {
+                con.carti.Remove(con.carti.Single(a =>a.id == id));
+                con.SaveChanges();
+            }catch(Exception e)
+            {
+                Console.Write(e.Message);
+            }
+        }
+        public void update(Carte c)
+        {
+            try
+            {
+              Carte b=  con.carti.Find(con.carti.Single().id);
+                b.titlu = c.titlu;
+                b.autor = c.autor;
+                b.Imprumutata = c.Imprumutata;
+                con.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.Write(e.Message);
+            }
+
+        }
+        public List<Carte> getListaCarti()
+        {
+            List<Carte> l = new List<Carte>();
+            foreach(Carte c in con.carti.ToList())
+            {
+                l.Add(c);
+            }
+            return l;
         }
     }
 }

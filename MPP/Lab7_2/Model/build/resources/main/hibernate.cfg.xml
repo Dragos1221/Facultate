@@ -8,14 +8,13 @@
 
         <property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
         <property name="connection.driver_class">org.sqlite.JDBC</property>
-        <property name="connection.url">jdbc:sqlite:crastonel.db</property>
+        <property name="connection.url">jdbc:sqlite:Oficii</property>
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
-
 
         <mapping resource="oficiu.hbm.xml"/>
     </session-factory>

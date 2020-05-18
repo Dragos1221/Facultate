@@ -29,6 +29,7 @@ namespace WindowsFormsApplication1.Repository
             }
             return true;
         }
+
         public bool find(string username, string password)
         {
             foreach(Bibliotecar bibliotecar in con.bibliot.ToList())
@@ -39,5 +40,6 @@ namespace WindowsFormsApplication1.Repository
             }
             return false;
         }
+
     }
 }

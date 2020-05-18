@@ -4,7 +4,7 @@ package ServiceImplementation;
 import Observer.IObserver;
 import ProjectModels.Destinatie;
 import ProjectModels.Oficiu;
-import ProjectRepository.OfficeRepository;
+import ProjectRepository.OfficeRepositoryHibernate;
 import ServiceInterface.IServiceOficii;
 
 import java.util.ArrayList;
@@ -13,10 +13,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class ServiceOficii implements IServiceOficii {
-    private OfficeRepository rep;
+    private OfficeRepositoryHibernate rep;
     private List<IObserver> list;
 
-    public ServiceOficii(OfficeRepository rep) {
+    public ServiceOficii(OfficeRepositoryHibernate rep) {
         this.rep = rep;
         list=new ArrayList<>();
     }

@@ -2,15 +2,12 @@
 import Controler.MeniuControler;
 import ProjectRepository.DestinatieRepository;
 import ProjectRepository.JdbcUtils;
-import ProjectRepository.OfficeRepository;
+import ProjectRepository.OfficeRepositoryHibernate;
 import ProjectRepository.RezervareRepository;
 import Proxy.DestinatieProxy;
 import Proxy.OficiuProxy;
 import Proxy.ReadResponse;
 import Proxy.RezervareProxy;
-import ServiceImplementation.ServiceDestinatie;
-import ServiceImplementation.ServiceOficii;
-import ServiceImplementation.ServiceRezervare;
 import ServiceInterface.IServiceDestinatie;
 import ServiceInterface.IServiceOficii;
 import ServiceInterface.IServiceRezervare;
@@ -24,7 +21,6 @@ import javafx.stage.Stage;
 
 import Controler.startControler;
 import javafx.stage.WindowEvent;
-import sun.security.krb5.internal.crypto.Des;
 
 
 import java.io.*;
@@ -33,7 +29,7 @@ import java.util.Properties;
 
 public class MainFX extends Application {
     private DestinatieRepository destRep;
-    private OfficeRepository offRep;
+    private OfficeRepositoryHibernate offRep;
     private RezervareRepository rezRep;
     private startControler cont;
     private JdbcUtils jdbc;
@@ -148,7 +144,7 @@ public class MainFX extends Application {
     {
         r=new ReadResponse(connection , output, input);
         r.startReader();
-        offRep=new OfficeRepository(jdbc);
+        offRep=new OfficeRepositoryHibernate(jdbc);
         rezRep=new RezervareRepository(jdbc);
         destRep=new DestinatieRepository(jdbc);
         destServ=new DestinatieProxy(input,output,connection,r);

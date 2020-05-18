@@ -36,18 +36,9 @@ namespace WindowsFormsApplication1
 
             Biblioteca biblioteca = new Biblioteca();
             biblioteca.nume = "ASDasd";
-
-
-           
-            c.b.Add(biblioteca);
-            c.SaveChanges();
-            
-            
-            
-            
-
-            
-
-        }
+  
+            RepositoryCarte rep = new RepositoryCarte(c);
+            rep.getListaCarti();
+     }
     }
 }

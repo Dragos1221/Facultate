@@ -94,6 +94,7 @@
     <Compile Include="Repository\RepositoryBibliotecar.cs" />
     <Compile Include="Service\ServiceAbonat.cs" />
     <Compile Include="Service\ServiceBibliotecar.cs" />
+    <Compile Include="Service\ServiceCarte.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

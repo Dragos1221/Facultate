@@ -16,9 +16,9 @@ namespace Lab1
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.EnableVisualStyles();
+            // Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
 
             /* SqlDataAdapter da = new SqlDataAdapter();
              DataSet ds = new DataSet();
@@ -34,8 +34,18 @@ namespace Lab1
                 Console.WriteLine(rea.GetString(1));
             }
             */
-          
-          
+            string str = "server=DESKTOP-N6I4HKO;database=Magazin_v2 ; Integrated security=True";
+            SqlConnection con = new SqlConnection(str);
+            SqlCommand cmd = new SqlCommand("Reads3", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            con.Open();
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter();
+            da.SelectCommand = cmd;
+            da.Fill(ds, "ceva");
+            con.Close();
+
+
 
 
 

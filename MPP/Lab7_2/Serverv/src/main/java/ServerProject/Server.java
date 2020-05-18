@@ -2,7 +2,7 @@ package ServerProject;
 
 import ProjectRepository.DestinatieRepository;
 import ProjectRepository.JdbcUtils;
-import ProjectRepository.OfficeRepository;
+import ProjectRepository.OfficeRepositoryHibernate;
 import ProjectRepository.RezervareRepository;
 import Protocol.ConcurentServer;
 import ServiceImplementation.ServiceDestinatie;
@@ -36,7 +36,7 @@ public class Server {
         IServiceRezervare servRez=new ServiceRezervare(repRez);
         DestinatieRepository repdest = new DestinatieRepository(jdbc);
         IServiceDestinatie servDest = new ServiceDestinatie(repdest);
-        OfficeRepository rep = new OfficeRepository(jdbc);
+        OfficeRepositoryHibernate rep = new OfficeRepositoryHibernate(jdbc);
         IServiceOficii serv = new ServiceOficii(rep);
         ConcurentServer server = new ConcurentServer(chatServerPort,serv,servRez,servDest);
 

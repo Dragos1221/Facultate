@@ -18,3 +18,13 @@ C:\Users\Dragos\Desktop\FacultateInfo\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
 C:\Users\Dragos\Desktop\FacultateInfo\Lab1\Lab1\obj\Debug\Lab1.Form2.resources
 C:\Users\Dragos\Desktop\FacultateInfo\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
 C:\Users\Dragos\Desktop\FacultateInfo\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\obj\Debug\Lab1.Form2.resources
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\Dragos\Desktop\University\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
