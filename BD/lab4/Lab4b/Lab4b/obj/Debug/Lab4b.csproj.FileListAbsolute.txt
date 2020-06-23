@@ -4,3 +4,9 @@ c:\users\dragos\documents\visual studio 2015\Projects\Lab4b\Lab4b\bin\Debug\Lab4
 c:\users\dragos\documents\visual studio 2015\Projects\Lab4b\Lab4b\obj\Debug\Lab4b.csprojResolveAssemblyReference.cache
 c:\users\dragos\documents\visual studio 2015\Projects\Lab4b\Lab4b\obj\Debug\Lab4b.exe
 c:\users\dragos\documents\visual studio 2015\Projects\Lab4b\Lab4b\obj\Debug\Lab4b.pdb
+C:\Users\Dragos\Desktop\University\BD\lab4\Lab4b\Lab4b\bin\Debug\Lab4b.exe.config
+C:\Users\Dragos\Desktop\University\BD\lab4\Lab4b\Lab4b\obj\Debug\Lab4b.exe
+C:\Users\Dragos\Desktop\University\BD\lab4\Lab4b\Lab4b\obj\Debug\Lab4b.pdb
+C:\Users\Dragos\Desktop\University\BD\lab4\Lab4b\Lab4b\bin\Debug\Lab4b.exe
+C:\Users\Dragos\Desktop\University\BD\lab4\Lab4b\Lab4b\bin\Debug\Lab4b.pdb
+C:\Users\Dragos\Desktop\University\BD\lab4\Lab4b\Lab4b\obj\Debug\Lab4b.csprojResolveAssemblyReference.cache

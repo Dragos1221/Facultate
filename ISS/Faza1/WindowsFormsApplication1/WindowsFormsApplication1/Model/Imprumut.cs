@@ -13,6 +13,14 @@ namespace WindowsFormsApplication1.Model
     {
         [Key(), DatabaseGenerated(DatabaseGeneratedOption.Identity),]
         public int id { get; set; }
+        public string dataInprumut { get; set; }
+        public string dataReturnare { get; set; }
+        public string stareCartePrimire { get; set; }
+        public string stareCarteReturnare { get; set; }
+
+        public int? idBibliotecar { get; set; }
+        [ForeignKey("idBibliotecar")]
+        public Bibliotecar b { get; set; }
 
         public int? idCarte2 { get; set; }
         [ForeignKey("idCarte2")]

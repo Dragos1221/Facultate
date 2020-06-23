@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form2
+    partial class AbonatWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -31,21 +31,32 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.idColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.titluColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.autorColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.imprumutataColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idColumn,
+            this.titluColumn,
+            this.autorColumn,
+            this.imprumutataColumn});
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(360, 294);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(443, 294);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // textBox1
             // 
@@ -60,13 +71,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 2;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(611, 174);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 3;
             // 
             // label1
             // 
@@ -86,6 +90,36 @@
             this.label2.Text = "Autor";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(611, 218);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Imprumuta";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Imprumuta);
+            // 
+            // idColumn
+            // 
+            this.idColumn.HeaderText = "Id";
+            this.idColumn.Name = "idColumn";
+            // 
+            // titluColumn
+            // 
+            this.titluColumn.HeaderText = "Titlu";
+            this.titluColumn.Name = "titluColumn";
+            // 
+            // autorColumn
+            // 
+            this.autorColumn.HeaderText = "Autor";
+            this.autorColumn.Name = "autorColumn";
+            // 
+            // imprumutataColumn
+            // 
+            this.imprumutataColumn.HeaderText = "Imprumutata";
+            this.imprumutataColumn.Name = "imprumutataColumn";
+            // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(505, 177);
@@ -95,16 +129,14 @@
             this.label3.Text = "Id";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // button1
+            // textBox3
             // 
-            this.button1.Location = new System.Drawing.Point(611, 218);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Imprumuta";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox3.Location = new System.Drawing.Point(611, 174);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 3;
             // 
-            // Form2
+            // AbonatWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -117,8 +149,9 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Form2";
+            this.Name = "AbonatWindow";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -130,10 +163,14 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn titluColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn autorColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn imprumutataColumn;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }

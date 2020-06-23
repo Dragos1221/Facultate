@@ -24,9 +24,9 @@ C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFor
 C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
 C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
-C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
-C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
-C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.LoginWindow.resources
-C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Migrations._1.resources
 C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AbonatWindow.resources
+C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.BibliotecarWindow.resources
+C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.LoginWindow.resources
+C:\Users\Dragos\Desktop\University\ISS\Faza1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Migrations._1.resources

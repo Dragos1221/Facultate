@@ -30,16 +30,17 @@ namespace WindowsFormsApplication1.Repository
             return true;
         }
 
-        public bool find(string username, string password)
+        public Bibliotecar find(string username, string password)
         {
             foreach(Bibliotecar bibliotecar in con.bibliot.ToList())
             {
-                 if (bibliotecar.username.Equals(username) &&
-                 bibliotecar.password.Equals(password))
-                 return true;
+                if (bibliotecar.username.Equals(username) &&
+                bibliotecar.password.Equals(password))
+                    return bibliotecar;
             }
-            return false;
+            return null;
         }
+
 
     }
 }

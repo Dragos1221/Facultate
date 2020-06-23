@@ -21,24 +21,22 @@ namespace WindowsFormsApplication1
             Application.SetCompatibleTextRenderingDefault(false);
             LoginWindow log = new LoginWindow();
             Context c = new Context();
-            RepositoryAbonat aboRep = new RepositoryAbonat(c);
+
+           RepositoryAbonat aboRep = new RepositoryAbonat(c);
             RepositoryBibliotecar bibliotecarRep = new RepositoryBibliotecar(c);
+           RepositoryCarte carteRep = new RepositoryCarte(c);
+            RepositoryImprumut imprRep = new RepositoryImprumut(c);
+
             ServiceAbonat aboServ = new ServiceAbonat(aboRep);
             ServiceBibliotecar bibliotecarServ = new ServiceBibliotecar(bibliotecarRep);
-            log.setService( bibliotecarServ,aboServ);
-            Application.Run(log);
+            ServiceCarte carteServ = new ServiceCarte(carteRep);
+            ServiceImprumut imprServ = new ServiceImprumut(imprRep);
 
-
-
-            Carte cc = new Carte();
-            cc.autor = "iulius";
-            cc.titlu = "nebunu";
-
-            Biblioteca biblioteca = new Biblioteca();
-            biblioteca.nume = "ASDasd";
-  
-            RepositoryCarte rep = new RepositoryCarte(c);
-            rep.getListaCarti();
+             log.setService( bibliotecarServ,aboServ,carteServ , imprServ);
+             carteServ.getLista();
+             Application.Run(log);
+ 
+         
      }
     }
 }

@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1.Service
         {
            return rep.save(b);
         }
-        public bool find(string username, string password)
+        public Bibliotecar find(string username, string password)
         {
             return rep.find( username,password);
         }

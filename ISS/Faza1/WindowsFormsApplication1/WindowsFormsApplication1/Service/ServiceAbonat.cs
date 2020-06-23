@@ -11,12 +11,15 @@ namespace WindowsFormsApplication1.Service
    public class ServiceAbonat
     {
         private RepositoryAbonat rep;
+
+        public event EventHandler Event;
+
         public ServiceAbonat(RepositoryAbonat r)
         {
             this.rep = r;
         }
 
-        public bool find(string username, string password)
+        public Anobat find(string username, string password)
         {
             return rep.find(username,password);
         }

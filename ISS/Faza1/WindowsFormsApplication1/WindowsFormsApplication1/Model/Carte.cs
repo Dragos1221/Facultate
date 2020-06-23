@@ -18,6 +18,8 @@ namespace WindowsFormsApplication1.Model
         [StringLength(30)]
         public string titlu { get; set; }
         public bool Imprumutata { get; set; }
+        [StringLength(30)]
+        public string stare { get; set; }
 
         public int? IdBiblioteca2 { get; set; }
 

@@ -31,5 +31,13 @@ namespace WindowsFormsApplication1.Service
         {
             return rep.getListaCarti();
         }
+        public int maxId()
+        {
+            return rep.maxId();
+        }
+        public Carte getCarte(int id)
+        {
+            return rep.getCarte(id);
+        }
     }
 }

@@ -31,21 +31,22 @@ namespace WindowsFormsApplication1.Repository
         {
             try {
                 con.carti.Remove(con.carti.Single(a =>a.id == id));
-                con.SaveChanges();
+               con.SaveChanges();
             }catch(Exception e)
             {
                 Console.Write(e.Message);
             }
         }
+
         public void update(Carte c)
         {
             try
             {
-              Carte b=  con.carti.Find(con.carti.Single().id);
+                Carte b = con.carti.FirstOrDefault(item => item.id == c.id);
                 b.titlu = c.titlu;
                 b.autor = c.autor;
                 b.Imprumutata = c.Imprumutata;
-                con.SaveChanges();
+               con.SaveChanges();
             }
             catch (Exception e)
             {
@@ -62,5 +63,20 @@ namespace WindowsFormsApplication1.Repository
             }
             return l;
         }
+        public int maxId()
+        {
+         return  con.carti.OrderBy(u => u.id).FirstOrDefault().id;  
+        }
+        public Carte getCarte(int id)
+        {
+            List<Carte> l = new List<Carte>();
+            foreach (Carte c in con.carti.ToList())
+            {
+                if (c.id == id)
+                    return c;
+            }
+            return null;
+        }
     }
+
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApplication1.Model;
 using WindowsFormsApplication1.Service;
 
 namespace WindowsFormsApplication1
@@ -16,31 +17,44 @@ namespace WindowsFormsApplication1
 
         private ServiceBibliotecar servBibliotecar;
         private ServiceAbonat servAbonat;
+        private ServiceCarte servCarte;
+        private ServiceImprumut servImpr;
 
         public LoginWindow()
         {
             InitializeComponent();
         }
     
-        public void setService(ServiceBibliotecar bibl , ServiceAbonat abo)
+        public void setService(ServiceBibliotecar bibl , ServiceAbonat abo,ServiceCarte servC , ServiceImprumut imprumut)
         {
             servBibliotecar = bibl;
             servAbonat = abo;
+            servCarte = servC;
+            servImpr = imprumut;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void loginIn(object sender, EventArgs e)
         {
-            if(AbonatRadio.Checked && servAbonat.find(username.Text,Password.Text))
+            Anobat a = servAbonat.find(username.Text, Password.Text);
+            if(AbonatRadio.Checked && servAbonat.find(username.Text,Password.Text)!=null)
             {
-                Form2 f2 = new Form2();
+                AbonatWindow f2 = new AbonatWindow();
+                f2.setService(servCarte, servImpr);
+                f2.setAbonat(a);
                 f2.Show();
+                this.Hide();
             }
             else
             {
-                if(BibliotecarRadio.Checked && servBibliotecar.find(username.Text, Password.Text))
+                Bibliotecar b = servBibliotecar.find(username.Text, Password.Text);
+                if (BibliotecarRadio.Checked && b!=null)
                 {
-                    Form2 f2 = new Form2();
-                    f2.Show();
+                    BibliotecarWindow f1 = new BibliotecarWindow();
+                    f1.setData(servCarte,servImpr);
+                    f1.setBibliotecar(b);
+                    f1.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -49,5 +63,7 @@ namespace WindowsFormsApplication1
             }
            
         }
+
+        private void LoginWindow_Load(object sender, EventArgs e){}
     }
 }

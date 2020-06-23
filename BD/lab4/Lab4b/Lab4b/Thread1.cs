@@ -27,9 +27,11 @@ namespace Lab4b
                 SqlCommand cmd = new SqlCommand("Reads9", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.ExecuteNonQuery();
-            }catch(SqlException e)
+                Console.WriteLine("deadlock 1 executat");
+            }
+            catch(SqlException e)
             {
-                Console.WriteLine("deadloc la 1");
+                Console.WriteLine("deadloc la 1" + e.Message);
                 if(nr<3)
                 {
                     Thread1 thr = new Thread1(nr+1);

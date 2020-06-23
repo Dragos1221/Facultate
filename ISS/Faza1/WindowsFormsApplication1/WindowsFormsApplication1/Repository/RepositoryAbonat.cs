@@ -16,16 +16,16 @@ namespace WindowsFormsApplication1.Repository
             con = c;
         }
 
-        public bool find(string username , string password)
+        public Anobat find(string username , string password)
         {
             foreach(Anobat abonat in con.abonati.ToList())
             {
                 if(username.Equals(abonat.username) && password.Equals(abonat.password))
                 {
-                    return true;
+                    return abonat;
                 }     
             }
-            return false;
+            return null;
         }
 
 
