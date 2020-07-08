@@ -2,97 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee54b734-5357-49ea-85ea-97726451cc0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/.vs/Lab4b/v14/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/.vs/Lab4b/v14/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/Thread1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/Thread1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/Thread2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/Thread2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/bin/Debug/Lab4b.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/bin/Debug/Lab4b.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/bin/Debug/Lab4b.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/bin/Debug/Lab4b.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/Lab4b.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/Lab4b.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/Lab4b.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/Lab4b.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/Lab4b.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/Lab4b/Lab4b/obj/Debug/Lab4b.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/dirty reads_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/dirty reads_2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/non-repeatable reads_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/non-repeatable reads_1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/non-repeatable reads_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/non-repeatable reads_2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BD/lab4/phantom reads_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BD/lab4/phantom reads_1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/.vs/WindowsFormsApplication1/v14/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/.vs/WindowsFormsApplication1/v14/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Form1.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Form2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Form2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Form2.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/LoginWindow.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/LoginWindow.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/LoginWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/LoginWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Migrations/202005041227515_1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Migrations/202005041227515_1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Migrations/202005041227515_1.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Model/Carte.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Model/Carte.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Model/Imprumut.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Model/Imprumut.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Resources.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Repository/RepositoryAbonat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Repository/RepositoryAbonat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Repository/RepositoryBibliotecar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Repository/RepositoryBibliotecar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Repository/RepositoryCarte.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Repository/RepositoryCarte.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Service/ServiceAbonat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Service/ServiceAbonat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Service/ServiceBibliotecar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Service/ServiceBibliotecar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Service/ServiceCarte.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/Service/ServiceCarte.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/WindowsFormsApplication1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/WindowsFormsApplication1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/bin/Debug/WindowsFormsApplication1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/bin/Debug/WindowsFormsApplication1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/bin/Debug/WindowsFormsApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/bin/Debug/WindowsFormsApplication1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.Form1.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.Form2.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.csproj.GenerateResource.Cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.csproj.GenerateResource.Cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ISS/Faza1/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug/WindowsFormsApplication1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/.vs/Lab1/v14/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Form1.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Form2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Form2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Form2.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Lab1.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Properties/Resources.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Properties/Resources.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Properties/Settings.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/Properties/Settings.settings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/bin/Debug/Lab1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/bin/Debug/Lab1.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/bin/Debug/Lab1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/bin/Debug/Lab1.vshost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/bin/Debug/Lab1.vshost.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/bin/Debug/Lab1.vshost.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.Form1.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.Form2.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.Properties.Resources.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.csproj.GenerateResource.Cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/Lab1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab1/Lab1/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistance/build/classes/java/main/ProjectRepository/DestinatieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Persistance/build/classes/java/main/ProjectRepository/DestinatieRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistance/build/libs/Persistance-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Persistance/build/libs/Persistance-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistance/src/main/java/ProjectRepository/DestinatieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistance/src/main/java/ProjectRepository/DestinatieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_2/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_2/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_2/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_2/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_2/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_2/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7_2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7_2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +41,11 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Oficii.db" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
@@ -160,6 +79,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Lab3_2" type="f1a62948:ProjectNode" />
                 <item name="ClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lab3_2" type="f1a62948:ProjectNode" />
+                <item name="ClientFX" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -172,9 +97,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Lab3_2" type="f1a62948:ProjectNode" />
-                <item name="ClientFX" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="Service" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -199,7 +122,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Lab1MPP/Oficii.db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab7_2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -374,6 +297,11 @@
       <workItem from="1591901266765" duration="502000" />
       <workItem from="1592236003566" duration="1778000" />
       <workItem from="1592583056225" duration="1455000" />
+      <workItem from="1593008627712" duration="9815000" />
+      <workItem from="1593033213749" duration="3863000" />
+      <workItem from="1593077101765" duration="700000" />
+      <workItem from="1593084221126" duration="2346000" />
+      <workItem from="1593954979999" duration="110000" />
     </task>
     <servers />
   </component>
@@ -392,17 +320,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Network/src/main/java/Proxy/RezervareProxy.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab3_2$Lab3_2_ClientFX__run_.ic" NAME="Lab3_2:ClientFX [run] Coverage Results" MODIFIED="1588863544286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
