@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3101cecb-d32c-4bbb-8b0d-4cf994054398" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3101cecb-d32c-4bbb-8b0d-4cf994054398" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/build/libs/Modell-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build/libs/Modell-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Networking/build/libs/Networking-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build/libs/Networking-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build/libs/untitled-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/libs/untitled-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/build/libs/Service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Service/build/libs/Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Client/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Client/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Client/Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Client/Client.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Model/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Model/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Model/Model.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Model/Model.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Networking/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Networking/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Networking/Networking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Networking/Networking.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Persistence/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Persistence/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Persistence/Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Server/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Server/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Server/Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Server/Server.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Service/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Service/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Service/Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ConsoleApplication1/Service/Service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/WindowsFormsApplication1/WindowsFormsApplication1/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/WindowsFormsApplication1/WindowsFormsApplication1/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/WindowsFormsApplication1/WindowsFormsApplication1/WindowsFormsApplication1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/WindowsFormsApplication1/WindowsFormsApplication1/WindowsFormsApplication1.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,11 +134,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1aDcMgQAcY8zmMtI4gdu1QAQlmk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Server/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -105,19 +170,7 @@
       <recent name="C:\Users\Dragos\Desktop\FacultateInfo\MPP\Lab3\ClientFX\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Gradle.Lab3:ClientFX [run]">
+  <component name="RunManager" selected="Application.MainFX">
     <configuration name="MainFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainFX" />
       <module name="untitled1.ClientFX.main" />
@@ -128,6 +181,17 @@
     <configuration name="ProjectServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProjectServer" />
       <module name="untitled1.Server.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,6 +263,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -231,11 +296,41 @@
       <workItem from="1587385337588" duration="662000" />
       <workItem from="1587475980316" duration="8079000" />
       <workItem from="1587501228902" duration="2727000" />
+      <workItem from="1603293454932" duration="662000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603295521747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603295521747" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603295521747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603295521747" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603295521747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603295521747" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603295521747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603295521747" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
